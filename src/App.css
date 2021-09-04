@@ -1,9 +1,5 @@
-.container {
+*{
   margin: 0;
-  padding: 0;
-}
-
-.mainbar {
-  display: flex;
-  flex-direction: row;
+  padding: 0%;
+  box-sizing: border-box;
 }
