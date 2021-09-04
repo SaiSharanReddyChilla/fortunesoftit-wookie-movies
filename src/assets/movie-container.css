@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.movies-container {
+    max-width: 100%;
+    max-height: 100%;
+    background: #000
+}
+.inner-container {
+    padding : 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.inner-container h1 {
+    color: #fff;
+    transition: 0.9s;
+}
+.inner-container h1:hover {
+    transform: scale(1.2);
+}
+.search-bar {
+    background: transparent;
+    width :300px;
+    padding:20px 20px;
+    border:1px solid #fff;
+    border-radius: 12px;
+    margin-right: 50px;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.6s;
+}
+.search-bar:hover {
+    width :375px;
+    background: #fff;
+    color:#000;
+    font-size: 20px;
+}
