@@ -26,7 +26,7 @@ const MoviesContainer = () => {
         <div className="movies-container">
             <div className="inner-container">
                 <h1>WOOKIE MOVIES</h1>
-                <input className="search-bar" type="text" placeholder="search by name/number" value={input} onChange={handleChange}/>
+                <input className="search-bar" type="text" placeholder="Search by Movie Title" value={input} onChange={handleChange}/>
             </div>
             <div>
                 {
